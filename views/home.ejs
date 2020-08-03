@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../css/home.css"></link>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>chat app</title>
+</head>
+<body>
+
+  <div id="l1">
+    <h1>chat app</h1>
+  </div>
+  
+  <% if(!data[0]){%>
+    <div id="noChat">
+      <h2>there is no previus chat</h2>
+    </div>
+  <%} else {%>
+    <% for(let i =0;i<data.length;i++){ %>
+
+      <div id="l21">
+        <p></p>
+      </div>
+
+      <% if(data[i].id === '1') {%>
+        <div id="l221">
+          <a href="/<%= data[i].mid %>"><h2><div id="home"><%= data[i].message %></div></h2></a>
+        </div>
+      <% }else { %>
+        <div id="l222">
+          <a href="/<%= data[i].mid %>"><h2><div id="home"><%= data[i].message %></div></h2></a>
+        </div>
+      <% } %>
+
+      <div id="l22">
+        <p></p>
+      </div>
+
+    <% } %>
+
+  <% } %>
+
+  <div id="m1">
+    <h3>person 1</h3>
+    <form action="/" method="post">
+      <input type="hidden" name="id" value="1">
+      <input type="text" name="message">
+      <button type="submit">send</button>
+    </form>
+  </div>
+
+  <div id="m2">
+    <h3>person 2</h3>
+    <form action="/" method="post">
+      <input type="hidden" name="id" value="2">
+      <input type="text" name="message">
+      <button type="submit">send</button>
+    </form>
+  </div>
+
+</body>
+</html>

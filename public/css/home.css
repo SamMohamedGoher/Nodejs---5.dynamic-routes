@@ -1,0 +1,92 @@
+body{
+  background-color: rgb(180, 180, 180);
+}
+
+#l1{
+  width: 100%;
+  height: 80px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  float: left;
+  background-color: rgb(180, 180, 180);
+  color: rgb(68, 32, 32);
+}
+
+#noChat{
+  width: 100%;
+  height: 80px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  float: left;
+  background-color: rgb(255, 255, 255);
+  color: rgb(68, 32, 32);
+}
+
+#l21{
+  width: 25%;
+  height: 65px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  float: left;
+  background-color: rgb(180, 180, 180);
+  color: rgb(68, 32, 32);
+}
+
+#l221 :link{
+  width: 50%;
+  height: 65px;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  float: left;
+  background-color: rgb(102, 102, 102);
+  color: rgb(255, 228, 228);
+  text-decoration: none;
+}
+
+#l222 :link{
+  width: 50%;
+  height: 65px;
+  font-family: 'Roboto', sans-serif;
+  text-align: right;
+  float: left;
+  background-color: rgb(102, 102, 102);
+  text-decoration: none;
+}
+
+#home{
+  color: rgb(255, 228, 228);
+  transition: 0.2s;
+}
+#home:hover{
+  color: rgb(119 , 154, 14);
+}
+
+#l22{
+  width: 25%;
+  height: 65px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  float: left;
+  background-color: rgb(180, 180, 180);
+  color: rgb(68, 32, 32);
+}
+
+#m1{
+  width: 50%;
+  height: 100px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  float: left;
+  background-color: rgb(180, 180, 180);
+  color: rgb(68, 32, 32);
+}
+
+#m2{
+  width: 50%;
+  height: 100px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  float: left;
+  background-color: rgb(180, 180, 180);
+  color: rgb(68, 32, 32);
+}
